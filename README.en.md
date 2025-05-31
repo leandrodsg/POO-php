@@ -1,12 +1,13 @@
 # Repository: POO-php
 
-This repository contains exercises and projects developed to practice the fundamentals of Object-Oriented Programming (OOP) in PHP. The content is organized in a modular way, reflecting the folder structure used in the local development environment with XAMPP.
+This repository contains exercises and projects developed to practice the fundamentals of Object-Oriented Programming (OOP) in PHP. 
+The content is organized in a modular way, reflecting the folder structure used in the local development environment with XAMPP.
 
 ## Repository Structure
 
 The repository is divided into two main categories:
 
-- **CodeExamples:**  
+- **Fundamentals:**  
   Practical examples and short activities focused on specific PHP and OOP concepts.
 
 - **Projetos (Projects):**  

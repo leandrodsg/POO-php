@@ -1,12 +1,13 @@
 # Repositório: POO-php
 
-Este repositório contém exercícios e projetos desenvolvidos para praticar os fundamentos de Programação Orientada a Objetos (POO) em PHP. O conteúdo está organizado de forma modular, refletindo a estrutura da pasta local utilizada no ambiente de desenvolvimento com o XAMPP.
+Este repositório contém exercícios e projetos desenvolvidos para praticar os fundamentos de Programação Orientada a Objetos (POO) em PHP. 
+O conteúdo está organizado de forma modular, refletindo a estrutura da pasta local utilizada no ambiente de desenvolvimento com o XAMPP.
 
 ## Estrutura do Repositório
 
 O repositório está dividido em duas categorias principais:
 
-- **CodeExamples:**  
+- **Fundamentals:**  
   Exemplos práticos e atividades curtas focadas em conceitos específicos de PHP e POO.
 
 - **Projetos:**  
