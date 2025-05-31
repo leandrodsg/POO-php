@@ -1,0 +1,100 @@
+/* style.css */
+
+/* Reset de margens e bordas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Caixa central branca */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Título principal */
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Campos de texto e botão */
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* Botão com estilo azul */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Botão com efeito hover */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Texto de navegação */
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Link com estilo */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mensagens de sucesso/erro */
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.95em;
+}
+
+.error {
+    background-color: #f8d7da;
+    color: #842029;
+}
+
+.success {
+    background-color: #d1e7dd;
+    color: #0f5132;
+}
+
+/* Ajustes em telas pequenas */
+@media (max-width: 500px) {
+    .container {
+        margin: 0 20px;
+    }
+}

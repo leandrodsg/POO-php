@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register - Contact Agenda</title>
+</head>
+<body>
+    <h2>Register</h2>
+
+    <form action="../controllers/RegisterController.php" method="POST">
+        <label for="nome">Name:</label><br>
+        <input type="text" name="nome" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label for="senha">Password:</label><br>
+        <input type="password" name="senha" required><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <br>
+    <a href="login.html">← Back to login</a>
+</body>
+</html>
